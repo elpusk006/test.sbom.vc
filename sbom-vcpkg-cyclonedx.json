@@ -1,0 +1,61 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:16d4a997-9b42-4a17-8d1c-eba8f7aea0cc",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-07-07T10:17:47+09:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.46.0"
+        }
+      ]
+    },
+    "component": { "bom-ref": "af63bd4c8601b7f1", "type": "file", "name": "." }
+  },
+  "components": [
+    {
+      "bom-ref": "ccf36097e12bb4a7",
+      "type": "application",
+      "name": "vc mfc sbom",
+      "version": "1.0.0.1",
+      "cpe": "cpe:2.3:a:vc_mfc_sbom:vc_mfc_sbom:1.0.0.1:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "pe-binary-package-cataloger"
+        },
+        { "name": "syft:package:type", "value": "binary" },
+        { "name": "syft:package:metadataType", "value": "pe-binary" },
+        {
+          "name": "syft:location:0:path",
+          "value": "\\x64\\Release\\vc_mfc.exe"
+        }
+      ]
+    },
+    {
+      "bom-ref": "eca6ce370b7874b8",
+      "type": "application",
+      "name": "vc sbom tester",
+      "version": "1.0.0.1",
+      "cpe": "cpe:2.3:a:vc_sbom_tester:vc_sbom_tester:1.0.0.1:*:*:*:*:*:*:*",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "pe-binary-package-cataloger"
+        },
+        { "name": "syft:package:type", "value": "binary" },
+        { "name": "syft:package:metadataType", "value": "pe-binary" },
+        {
+          "name": "syft:location:0:path",
+          "value": "\\x64\\Release\\vc_sbom.exe"
+        }
+      ]
+    }
+  ]
+}
