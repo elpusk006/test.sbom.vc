@@ -1,0 +1,13 @@
+{
+  "$comment": "For test sbom generation",
+  "name": "vc-sbom-mfc",
+  "version": "1.0.0",
+  "description": "vcpkg of vc-sbom-mfc",
+  "homepage": "https://github.com/elpusk006/test.sbom.vc",
+  "documentation": "https://github.com/elpusk006/test.sbom.vc",
+  "license": "MIT",
+  "supports": "!uwp",
+  "dependencies": [
+    "boost-filesystem"
+  ]
+}

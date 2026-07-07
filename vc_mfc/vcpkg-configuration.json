@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg-configuration.schema.json",
+  "default-registry": {
+    "kind": "git",
+    "baseline": "1600ce2ba1b6b621bfc5a31a785c4963b817a1c7",
+    "repository": "https://github.com/microsoft/vcpkg"
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "baseline": "1600ce2ba1b6b621bfc5a31a785c4963b817a1c7",
+      "repository": "https://github.com/microsoft/vcpkg",
+      "packages": [
+        "boost-filesystem"
+      ]
+    }
+  ],
+  "overlay-triplets": [ "" ]
+}
