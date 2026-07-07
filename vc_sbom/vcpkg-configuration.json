@@ -8,10 +8,10 @@
   "registries": [
     {
       "kind": "git",
-      "baseline": "5ba2b95aea2a39aa89444949c7a047af38c401c1",
+      "baseline": "1600ce2ba1b6b621bfc5a31a785c4963b817a1c7",
       "repository": "https://github.com/microsoft/vcpkg",
       "packages": [
-        "boost-*"
+        "boost-filesystem"
       ]
     }
   ],

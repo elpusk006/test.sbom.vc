@@ -4,10 +4,10 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # vcpkg 설치된 바이너리 및 헤더 폴더 (빌드 시 재생성 가능)
-/installed/
+installed/
 
 # 캐시 폴더
-/vcpkg_installed/
+vcpkg_installed/
 
 # 로컬 상태 파일
 /vcpkg.version.txt
